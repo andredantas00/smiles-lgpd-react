@@ -1,0 +1,276 @@
+{
+  "summary": {
+    "about": {
+      "title": "Sobre você",
+      "cpf": "CPF",
+      "name": "Nome completo",
+      "birth_date": "Data de nascimento",
+      "email": "Email"
+    },
+    "address": {
+      "title": "Seu endereço",
+      "search_address": "Buscar endereço",
+      "cep": "Buscar endereço"
+    },
+    "security": {
+      "title": "Sua segurança",
+      "password": "Senha",
+      "phone": "Celular"
+    },
+    "terms": {
+      "title": "Termo de aceite"
+    },
+    "current": "Conclua essa etapa para continuar",
+    "modal_error": {
+      "button_text_primary": "Continuar de onde parei",
+      "button_text_secondary": "Ir pra etapa escolhida",
+      "error_title": "Tem certeza que quer sair dessa etapa do cadastro?",
+      "error_msg": "Se você voltar pra uma etapa anterior, os dados da etapa atual serão perdidos. Então, você vai precisar preenchê-los mais uma vez."
+    }
+  },
+  "cpf": {
+    "title": "Qual é seu CPF?",
+    "description": "Usamos esse dado pra validar seu cadastro (e te deixar um pouquinho mais perto do seu próximo destino).",
+    "no_document": "Não tenho CPF",
+    "continue_register": "Continuar cadastro",
+    "passport": "Passaporte",
+    "select_document": "Você pode continuar com um desses documentos:",
+    "whats_your_passport": "Qual é o número do seu passaporte?",
+    "insert_numbers": "Digite letras e números",
+    "whats_your_rne": "Qual é o número do seu RNE?",
+    "invalid_passport": "Passaporte inválido. Tente novamente",
+    "invalid_rne": "RNE inválido.Tente novamente",
+
+    "already_registered_rne": "RNE",
+    "already_registered_passport": "passaporte",
+    "already_registered": "Não foi possível cadastrar esse {{document}}",
+    "already_registered_description": "Verifique se você digitou o número corretamente ou se já possui uma conta aqui na Smiles.",
+    "password_recover": "Recuperar senha",
+    "signIn_my_account": "Acessar conta",
+
+    "dead_cpf": "Opa, algo deu errado por aqui...",
+    "dead_cpf_description": "Para continuar o cadastro, será preciso informar outro número de CPF.",
+    "register_another_cpf": "Cadastrar com outro CPF",
+
+    "something_wrong": "Opa, algo deu errado por aqui...",
+    "something_wrong_description": "Tivemos um problema com nosso sistema e não conseguimos verificar seu {{document}} agora. Pode tentar mais uma vez?",
+    "try_again": "Tentar novamente",
+
+    "continue": "Continuar"
+  },
+  "pre_registered": {
+    "question": "Vamos criar sua conta Smiles?",
+    "lets_go": "Vamos lá!",
+    "gol": {
+      "title": "Que ótimo, você já voou com a Gol! ✈️",
+      "description": "Agora você está prestes a embarcar na melhor Plataforma de Viagens do Brasil, com mais de 1600 destinos no mundo inteiro."
+    },
+    "credit_card": {
+      "title": "Que ótimo, você já tem um cartão de crédito Gol Smiles! 😃",
+      "description": "Agora você está prestes a embarcar na melhor Plataforma de Viagens do Brasil, com mais de 1600 destinos no mundo inteiro."
+    },
+    "transference": {
+      "title": "Que ótimo, você já fez alguma transferência com a Smiles antes! 😃",
+      "description": "Agora você está prestes a embarcar na melhor Plataforma de Viagens do Brasil, com mais de 1600 destinos no mundo inteiro."
+    },
+    "shell_box": {
+      "title": "Que ótimo, você já acumulou milhas com o Shell Box! 😃",
+      "description": "Agora você está prestes a embarcar na melhor Plataforma de Viagens do Brasil, com mais de 1600 destinos no mundo inteiro."
+    }
+  },
+  "birth_date": {
+    "title": "Em que data você nasceu?",
+    "placeholder": "Ex: DD/MM/AAAA",
+    "description": "Vamos guardar o dia do seu aniversário pra te dar os parabéns!",
+    "invalid_date": "Data inválida. Tente novamente.",
+    "continue_register": "Continuar",
+    "under_age": "Você tem menos de 18 anos?",
+    "under_age_description": "Podemos criar uma conta só pra você, mas uma pessoa responsável precisa autorizar seu cadastro. Essa pessoa precisa ser cliente Smiles e deve vincular as duas constas, seguindo os próximos passo. Vamos lá?",
+    "assign_new_account": "Associar nova conta"
+  },
+  "name": {
+    "title": "Qual seu nome completo?",
+    "description": "Cadastre seu nome sem abreviaturas, exatamente como está no seu documento.",
+    "invalid_full_name": "Nome completo inválido. Tente novamente.",
+    "continue_register": "Continuar"
+  },
+  "email": {
+    "title": "Qual é o seu e-mail?",
+    "description": "Não se preocupe, não vamos  encher a sua caixa de entrada com spam.",
+    "invalid_email": "Email inválido. Tente novamente.",
+    "already_registered_title": "Esse e-mail já está sendo usado por outra pessoa.",
+    "already_registered_description": "Pra continuar o cadastro, você precisa informar um e-mail diferente.",
+    "already_registered": "Cadastrar outro e-mail",
+    "generic_error_title": "Opa, algo deu errado por aqui...",
+    "generic_error_description": "Tivemos um problema com nosso sistema e não conseguimos verificar seu e-mail agora. Pode tentar mais uma vez?",
+    "generic_error": "Tentar novamente",
+    "continue_register": "Continuar"
+  },
+  "confirm_email": {
+    "title": "Confirme seu e-mail",
+    "invalid_email": "Os e-mails não coincidem",
+    "continue_register": "Confirmar e-mail",
+    "register_another_email": "Voltar e cadastrar outro e-mail"
+  },
+  "cep": {
+    "title": "Tudo ok, é hora de adicionar seu endereço",
+    "description": "Você pode incluir apenas o CEP ou a rua, e completar o restante depois.",
+    "placeholder": "Digite seu CEP ou endereço ",
+    "not_found": "Não encontramos nenhum resultado. Digite seu CEP ou ",
+    "not_found_action": "complete seu endereço"
+  },
+  "address": {
+    "title": "Complete seu endereço",
+    "inputs": {
+      "city": {
+        "label": "Cidade",
+        "placeholder": "Cidade"
+      },
+      "state": {
+        "label": "Estado",
+        "placeholder": "Estado",
+        "dropdown": "Digite o seu estado"
+      },
+      "complement": {
+        "label": "Complemento (opcional)",
+        "placeholder": "Apartamento, bloco, conjunto"
+      },
+      "number": {
+        "label": "Número",
+        "placeholder": "000"
+      },
+      "cep": {
+        "label": "CEP",
+        "placeholder": "00000-000"
+      },
+      "country": {
+        "label": "País",
+        "placeholder": "Selecione um país"
+      },
+      "neighborhood": {
+        "label": "Bairro",
+        "placeholder": "Ex: Vila Mariana"
+      },
+      "publicArea": {
+        "label": "Logradouro",
+        "placeholder": "Ex: R. Santos Dumont"
+      }
+    },
+    "errors": {
+      "country": "País inválido. Tente Novamente",
+      "state": "Estado  inválido. Tente Novamente",
+      "city": "Cidade inválida. Tente Novamente",
+      "neighborhood": "Bairro inválido. Tente Novamente",
+      "number": "Número inválido. Tente novamente",
+      "publicArea": "Endereço inválido. Tente novamente.",
+      "cep": "Cep inválido. Tente novamente.",
+      "complement": "Complmento inválido. Tente novamente."
+    }
+  },
+  "terms": {
+    "title": "Pra continuar, você precisa concordar com nossos regulamentos",
+    "privacy": "Política de Privacidade",
+    "program_rules": "Regulamento do Programa",
+    "agreement": "Li e concordo",
+    "continue": "Continuar",
+    "modal_title": "Como você prefere ficar sabendo de promoções e ofertas?",
+    "by_email": "Por e-mail",
+    "by_sms": "Por SMS",
+    "config_later": "Configurar depois",
+    "save": "Salvar",
+    "modal_animation_first_text": "Quaaaaase lá...",
+    "modal_animation_second_Text": "Estamos criando sua conta.",
+    "modal_animation_final_text": "Sua conta está pronta!",
+    "modal_animation_final_text_error": "Opa, algo deu errado por aqui..."
+  },
+  "create_password": {
+    "title": "Agora, crie uma senha de 4 dígitos numéricos",
+    "description": "Você vai precisar da senha para acessar o site, transferir milhas ou comprar passagens, por exemplo.",
+    "rules_hyperlink": "Regras de segurança",
+    "confirm_password": "Continuar",
+    "rules_title": "Sua senha não deve conter:",
+    "rules": [
+      "Menos de 4 dígitos",
+      "Números sequenciais (ex: 1234)",
+      "Números repetidos (ex: 1111)",
+      "Ano ou dia e mês do seu aniversário"
+    ],
+    "invalid": "Essa senha não é segura. Tente novamente.",
+    "accept_rules": "Entendi"
+  },
+  "confirm_password": {
+    "title": "Repita sua senha",
+    "invalid": "As senhas não coincidem.",
+    "confirm_password": "Confirmar senha",
+    "back_to_password_creation": "Voltar e cadastrar outra senha"
+  },
+  "register_phone": {
+    "title": "Vamos enviar um código pra confirmar seu celular",
+    "description": "Seu cadastro já está quase completo. Só precisamos validar seu número.",
+    "receive_sms": "Receber código por SMS",
+    "select_ddi": "Selecionar DDI",
+    "invalid_ddd": "DDD inválido. Tente novamente.",
+    "invalid_phone": "Número de celular inválido. Tente novamente.",
+    "modal_header_title": "Selecione o código de área (DDI) do seu país"
+  },
+  "validate_phone": {
+    "title": "Digite o código de validação",
+    "description": "Digite o código de 6 dígitos que enviamos para o número\n<bold>{{phone}}</bold>",
+    "validate_code": "Validar código",
+    "resend_code": "Reenviar código {{remainingTimeInSec}}",
+    "invalid_code": "Código inválido. Confira os números e tente novamente.",
+    "resend_title": "Confira o seu número",
+    "resend_description": "Vamos reenviar o código de validação para <bold>{{phone}}</bold>. Está corretinho?",
+    "correct_phone": "Sim, está correto",
+    "edit_phone": "Editar número de celular"
+  },
+  "feedback": {
+    "modal_title": "Fique de olho no seu e-mail, {{name}}",
+    "modal_description_1": "Precisamos revisar os dados do seu cadastro antes de ativar sua conta Smiles. Alguém da nossa equipe fará isso e enviará um e-mail pra você, então, não precisa se preocupar.",
+    "modal_description_2": "Ah, não esqueça de conferir sua caixa de spam!",
+    "modal_confirm": "Entendi",
+    "loading_msg_1": "Quaaaase lá...",
+    "loading_msg_2": "Estamos criando sua conta."
+  },
+  "messages": {
+    "error_title": "Sua conta ainda não está pronta, tem certeza que quer sair agora?",
+    "error_msg": "Se quiser criar sua conta depois, não tem problema. Seu lugar a borda da Smiles estará sempre reservado, viu?",
+    "button_text_primary": "Continuar",
+    "button_text_secondary": "Concluir o cadastro depois"
+  },
+  "page_message": {
+    "modal_message_error_title": "Ops, não conseguimos completar o cadastro…",
+    "modal_message_error_button": "Tente novamente",
+    "modal_message_error_description": "Seu cadastro foi interrompido, mas você pode tentar mais uma vez! Vamos lá?",
+    "modal_message_success_title": "Pronto, {{name}}! ",
+    "modal_message_success_title2": "Agora é com a gente... ",
+    "modal_message_success_button": "Entendi",
+    "modal_message_success_description": "Precisamos revisar os dados do seu cadastro antes de ativar sua conta Smiles. Alguém da nossa equipe fará isso e enviará um e-mail pra você, então, não precisa se preocupar.",
+    "modal_message_success_description2": "Ah, não esqueça de conferir sua caixa de spam! "
+  },
+  "modal_argentina": {
+    "title": "Você é argentino e mora na Argentina?",
+    "description": "Conclua seu cadastro no site da Smiles Argentina."
+  },
+  "association_minor_legal_guardian": {
+    "title": "Essas contas não podem ser associadas",
+    "description": [
+      "Pra prosseguir com a criação da nova conta, é preciso inserir os dados de uma pessoa que já seja cliente Smiles com mais de 18 anos."
+    ],
+    "btn_primary": "Associar outra conta"
+  },
+  "association_invalid_legal_guardian": {
+    "title": "Essas contas não podem ser associadas",
+    "description": [
+      "Não é possível associar esta conta, pra prosseguir com a criação, é preciso inserir os dados de uma pessoa com uma conta ativa."
+    ],
+    "btn_primary": "Associar outra conta"
+  },
+  "association_service_error": {
+    "title": "Ops, algo deu errado por aqui...",
+    "description": [
+      "Tivemos um problema com nosso sistema e não conseguimos associar as contas. Pode tentar mais uma vez?"
+    ],
+    "btn_primary": "Tentar novamente"
+  }
+}

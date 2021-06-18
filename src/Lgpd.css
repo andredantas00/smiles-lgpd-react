@@ -1,0 +1,84 @@
+.lgpd {
+	background: #1E1E1E;
+	opacity: 0.9;
+	border-radius: 16px;
+	width: 1192px;
+	height: 88px;
+	bottom: 25px;
+	position: fixed;
+}
+.lgpdtest {
+	background: #1E1E1E;
+	opacity: 0.9;
+	border-radius: 16px;
+	width: 1192px;
+	height: 88px;
+	bottom: 25px;
+	position: fixed;
+}
+.lgpd-text {
+	position: absolute;
+	width: 796.96px;
+	height: 24px;
+	left: 56px;
+	top: 32px;
+	
+
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+
+	display: flex;
+	align-items: center;
+
+	color: #FFFFFF;
+}
+.lgpd-regulamento {
+	position: absolute;
+	height: 24px;
+	right: 12%;
+	top: calc(50% - 24px/2);
+
+	background: transparent;
+    border: none;
+	
+
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+
+	display: flex;
+	align-items: center;
+
+	color: #FFFFFF;
+}
+.lgpd-aceitar {
+	position: absolute;
+	height: 24px;
+	right: 2%;
+	top: calc(50% - 38px/2);
+	border: 1.5px solid #FFFFFF;
+	padding: 18px;
+	border-radius: 15px;	
+	background: transparent;
+
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.5px;
+	color: #FFFFFF;
+}
+.lgpd-button {
+	height: 24px;
+	right: 2%;
+	top: calc(50% - 38px/2);
+}
